@@ -1,0 +1,39 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Google_Logo {
+  width: 50vw;
+  height: 50vh;
+}
+#Input1 {
+  width: 50vw;
+  height: 5vh;
+  border: 1px solid rgba(128, 128, 128, 0.322);
+  border-radius: 16vw;
+  font-size: 1rem;
+}
+#Input1:focus {
+  outline: none;
+}
+#Input1:hover {
+  box-shadow: 0px 0px 5px rgb(105, 101, 101);
+}
+button {
+  width: 10vw;
+  height: 5vh;
+  border: none;
+  margin-left: 40%;
+}
+button:hover {
+  border: 1px solid rgba(201, 195, 195, 0.815);
+  box-shadow: 0px 2px 2px rgba(136, 134, 134, 0.815);
+  border-radius: 4px;
+}
